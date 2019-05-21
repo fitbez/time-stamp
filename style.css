@@ -22,3 +22,13 @@ h3 {
 .btn p {
   padding-top: 10px;
 }
+
+.newTicket h3 {
+  text-align: start;
+  margin-left: 40px;
+  text-decoration: underline;
+}
+
+.newTicket ul {
+  list-style: none;
+}

@@ -1,8 +1,14 @@
 let startTicket = 0;
 
-const count = document.querySelector(".btn");
+let count = document.querySelector(".btn");
+let ticketList = document.getElementById("newTicketList");
+
 count.addEventListener("click", () => {
   startTicket += 1;
-
-  console.log(startTicket);
+  createTicket(startTicket);
 });
+
+function createTicket(x) {
+  let ourHTML = ` <li>00-00${x}</li>`;
+  ticketList.insertAdjacentHTML("beforeend", ourHTML);
+}
