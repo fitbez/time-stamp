@@ -23,6 +23,10 @@ h3 {
   padding-top: 10px;
 }
 
+.date {
+  margin-left: 40px;
+  font-size: 1.5rem;
+}
 .newTicket h3 {
   text-align: start;
   margin-left: 40px;
